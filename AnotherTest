@@ -28,7 +28,7 @@ class DriverStation;
  * single class instance for each joystick and the mapping of ports to hardware
  * buttons depends on the code in the Driver Station.
  */
-class Joystick : public JoystickB, public ErrorBase {
+class Joystick : public ErrorBase {
  public:
   static const int kDefaultXAxis = 0;
   static const int kDefaultYAxis = 1;
